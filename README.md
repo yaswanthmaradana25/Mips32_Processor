@@ -3,6 +3,8 @@ In this Project I have Implemented the Mips32 Processor using Pipelining Techniq
 <br>
 For the Processor I have used Reduced Instruction Set.
 <br>
+Mips32_Processor has 32 inbuilt registers ranging from R0 to R31.
+<br>
 <br>
 Functions Present in the Processor are Given Below
 <br>
@@ -20,7 +22,13 @@ Functions Present in the Processor are Given Below
 <br>
 **ADDI**,**SUBI**,**SLTI** (These will Add,Substract,select lesser value respectively from a value stored in a register and an immediate value)
 <br>
-
-
+**LW** (Calculates the  address of the destination register and stores the value in that register)
+<br>
+**SW** (Calculates the address of the destination Memory address and stores the value in the memory location)
+<br>
+**BEQZ** (Jumps to the next instruction when the value stored in the register is zero)
+<br>
+**BNEQZ** (Jumps to the next instruction when the value stored in the register is not equal to zero)
+**HLT** (Stops the Execution Of Next Instruction)
 
 
